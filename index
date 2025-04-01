@@ -1,0 +1,14 @@
+<header>
+  <h2 style="text-align: center; background-color: rgb(83,135,166);">&#128133; Ana's Site &copy;</h2>
+  <h3 style="text-align:center"> This site was created to help me make decisions <br> It is based on a random draw </h3>
+</header>
+<div style="background-color:black;color:white;padding:20px;">
+  <h2>Random draw</h2>
+  <p>Enter a number and click on the button bellow &#128071</p>
+  <form onsubmit="event.preventDefault();">
+  <label for="number">Your number:</label><br><br>
+  <input type="number" id="maxNumber" name="number" min="1" required><br><br>
+  </form>
+  <button onclick="displayDecision()">Right there &#128076;</button>
+    <p id="decision"></p>
+</div>
