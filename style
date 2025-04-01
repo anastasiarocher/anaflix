@@ -1,0 +1,9 @@
+body {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;  /* Centrage horizontal */
+    align-items: center;  /* Centrage vertical */
+    height: 100vh; /* Prend toute la hauteur de l'écran */
+    margin: 0;
+    background-color: lightgray;
+}
