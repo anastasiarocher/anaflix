@@ -1,3 +1,4 @@
+console.log("Le script est bien chargé !");
 function randomDecision(maximum) {
     if (isNaN(maximum) || maximum < 1) {
         return "Please enter a valid number!";
